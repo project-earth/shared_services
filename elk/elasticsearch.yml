@@ -1,0 +1,3 @@
+http.port: $ELASTICSEARCH_PORT
+path.data: $DAT_PATH/elk/elasticsearch
+path.logs: $DAT_PATH/elk/elasticsearch/logs

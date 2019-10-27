@@ -1,0 +1,4 @@
+server.port: $KIBANA_PORT
+elasticsearch.hosts: ["http://localhost:$ELASTICSEARCH_PORT"]
+# kibana.defaultAppId: "home"
+path.data: $DAT_PATH/elk/kibana
